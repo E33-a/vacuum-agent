@@ -2,6 +2,7 @@
 #define VALIDATOR_H
 
 #include <iostream>
+#include "Utilities.h"
 
 using namespace std;
 
@@ -10,7 +11,6 @@ class Validator {
         int rowIndex, columnIndex;
     public:
         Validator() : rowIndex(0), columnIndex(0) {}
-        ~Validator(){}
 
         int getRowIndex() {
             return rowIndex;
@@ -36,8 +36,10 @@ class Validator {
                     cout << "Invalid value. Try again.\n";
                 }
             } while (columnIndex < 5);
+            clearScreen();
         }
 
+        ~Validator(){}
 };
 
 #endif                                                 
