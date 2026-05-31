@@ -5,7 +5,7 @@ Este proyecto es una simulación en C++ por consola de un "Agente Aspiradora" (V
 ## ¿Qué hace el programa?
 
 1. **Generación del Entorno:**
-   Al iniciar, el programa te pedirá definir el tamaño de la cuadrícula (con un mínimo de 5x5). Luego, generará aleatoriamente un espacio donde algunas baldosas estarán sucias (representadas con el número `1`) y otras limpias (representadas con el número `0`).
+   Al iniciar, el programa te pedirá definir el tamaño de la cuadrícula (con un mínimo de 5x5). Luego, generará aleatoriamente un espacio donde algunas casillas estarán sucias (representadas con el número `1`) y otras limpias (representadas con el número `0`).
 2. **Posición del Agente:**
    El usuario puede elegir introducir las coordenadas iniciales de la aspiradora manualmente o dejar que el sistema asigne una posición aleatoria. La aspiradora se representa visualmente con la letra `A` en la cuadrícula principal.
 3. **Proceso de Limpieza:**
